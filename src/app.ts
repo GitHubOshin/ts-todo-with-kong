@@ -1,2 +1,4 @@
-const btnEl = document.getElementById('btn')
-console.log(btnEl)
+const btnEl = document.getElementById('btn')!
+btnEl.addEventListener('click', function () {
+  alert('click')
+})
