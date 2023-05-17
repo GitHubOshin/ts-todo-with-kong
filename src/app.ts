@@ -1,1 +1,2 @@
-console.log('Todolist')
+const btnEl = document.getElementById('btn')
+console.log(btnEl)
