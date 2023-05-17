@@ -1,4 +1,6 @@
-const btnEl = document.getElementById('btn')!
+const btnEl = document.getElementById('btn')! as HTMLButtonElement
+const inputEl = document.getElementById('input')! as HTMLInputElement
+
 btnEl.addEventListener('click', function () {
-  alert('click')
+  console.log(inputEl.value)
 })
