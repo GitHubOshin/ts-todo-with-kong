@@ -19,6 +19,7 @@ function saveData(e: SubmitEvent) {
   }
   createList(newTask)
   tasks.push(newTask)
+  localStorage.setItem('myList', JSON.stringify(tasks))
 }
 
 function createList(task: Task) {
